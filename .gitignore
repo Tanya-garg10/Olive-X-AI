@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+env/
+venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Dataset images (large — not tracked in git)
+data/train/
+data/val/
+data/test/
+
+# Trained model weights (large binary files)
+*.pth
+*.pt
+*.onnx
+
+# Output artefacts (re-generated on run)
+output/
+
+# Temp / patch scripts
+patch_notebook.py
+hackblox_local.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets / env
+.env
+*.key
